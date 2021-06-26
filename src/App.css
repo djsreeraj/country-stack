@@ -1,0 +1,136 @@
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  font-family: "Roboto", sans-serif;
+}
+
+/* left sidebar styles */
+
+.main__sidebar {
+  background-color: rgb(232, 245, 255);
+  width: 25vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main__header {
+  margin: 20px;
+}
+
+.sidebar__footer > img {
+  width: 20vw;
+}
+
+.title {
+  font-size: 0px;
+  font-family: Roboto-Bold;
+}
+
+.title > span {
+  font-size: 2.3vw;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+
+.title_first {
+  color: #3a7bd5;
+}
+
+.main__description {
+  margin: 20px 3px;
+  color: #1f3038;
+  font-style: italic;
+}
+
+.main__footer {
+  color: #94949488;
+  margin: 15px;
+  text-align: center;
+}
+
+/* country information section */
+
+.countries {
+  width: 70vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto-Bold;
+  color: #37474f;
+}
+
+.countries__details,
+.coutries__continent {
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+  background-color: rgb(224, 244, 253);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h4 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+input {
+  margin-bottom: 30px;
+  border-radius: 2px;
+  padding: 15px 20px;
+  font-size: 1rem;
+  outline: none;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: rgb(23, 69, 121);
+  box-shadow: 0 0 10px #83acd8;
+}
+
+input:focus {
+  outline: none !important;
+  border: 1px solid rgb(167, 201, 255);
+  box-shadow: 0 0 10px #719ece;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  list-style: none;
+  background-color: #fff;
+  padding: 10px;
+  margin: 2px;
+}
+
+.countries__continent__results {
+  height: 30vh;
+  width: 20vw;
+  overflow: auto;
+}
+
+label {
+  margin-right: 10px;
+}
+
+.country__emoji {
+  margin-right: 20px;
+}
